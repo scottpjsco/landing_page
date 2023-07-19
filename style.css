@@ -1,0 +1,46 @@
+body {
+    outline: 2px solid red;
+}
+section {
+    outline: 8px solid green;
+}
+.section-1 {
+    outline: 2px solid orange;
+    height: 450px;
+    background-color: #1F2937;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 125px;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    outline: 2px solid pink;
+}
+
+.logo {
+font-size: 24px;
+}
+
+.right-links {
+    font-size: 18px;
+}
+
+ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    text-decoration: none;
+    gap: 8px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    outline: 3px solid red;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: white;
+  }
