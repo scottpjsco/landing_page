@@ -6,8 +6,15 @@ body {
         margin-bottom: 0px;
       
 }
+
+section {
+  outline: red solid 3px;
+  width: 1200px;
+}
+
 .section-1 {
-    outline: 2px solid orange;
+    outline: 8px solid pink;
+    display: flex;
     height: 450px;
     background-color: #1F2937;
     color: white;
@@ -21,7 +28,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    outline: 2px solid pink;
+    outline: 2px solid burlywood;
 }
 
 .logo {
@@ -39,7 +46,7 @@ ul {
     margin: 0px;
     padding: 0px;
     display: flex;
-    outline: 3px solid red;
+    outline: 3px solid saddlebrown;
     color: white;
   }
 
@@ -55,12 +62,14 @@ ul {
   .modal {
     background: #1F2937;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 16px;
     padding: 16px;
     width: 480px;
     border-radius: 10px;
     box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-    outline: 2px solid orange;
+    outline: 2px solid seagreen;
   }
 
   button {
@@ -69,8 +78,14 @@ ul {
     border-radius: 8px;
   }
   
-  button.continue {
+  button.sign-up {
     background: royalblue;
     border: 1px solid royalblue;
     color: white;
   }
+
+  .image {
+  display: flex;
+  flex: 1 1 0;
+  outline: yellowgreen 3px solid;
+  } 
