@@ -110,3 +110,9 @@ ul {
   flex: 1;
   outline: yellowgreen 3px solid;
   }  
+
+  .section-2 {
+    height: 400px; 
+    outline: 3px solid orange;
+    background-color: white;
+  }
