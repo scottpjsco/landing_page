@@ -70,7 +70,7 @@ ul {
     align-items: center;
     gap: 16px;
     padding: 16px;
-    width: 480px;
+    width: 600px;
     border-radius: 10px;
     box-shadow: 2px 4px 16px rgba(0,0,0,.2);
     outline: 2px solid seagreen;
@@ -91,7 +91,8 @@ ul {
   button {
     cursor: pointer;
     padding: 8px 38px;
-    border-radius: 8px;
+    border-radius: 10px;
+    margin-top: 10px;
     color: #E5E7EB;
   }
   
@@ -102,9 +103,10 @@ ul {
 
 
   }
-/* 
+
   .image {
+  width: 600px;
   display: flex;
-  flex: 1 1 0;
+  flex: 1;
   outline: yellowgreen 3px solid;
-  }   */
+  }  
