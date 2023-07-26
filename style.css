@@ -14,13 +14,6 @@ body {
       
 }
 
-section {
-  outline: red solid 3px;
-  width: 1200px;
-}
-
-
-
 header {
     display: flex;
     justify-content: space-evenly;
@@ -58,17 +51,17 @@ ul {
     color: white;
   }
 
-  /* .section-1 {
-    outline: 8px solid pink;
+  .section-1 {
+    width: 1000px;
+    height: 400px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
     display: flex;
-    height: 450px;
-    background-color: #1F2937;
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 125px;
-    padding-left: 125px;
-    padding-right: 125px;
-}
+    outline: 2px solid white;
+
+} 
 
   .modal {
     background: #1F2937;
@@ -83,20 +76,35 @@ ul {
     outline: 2px solid seagreen;
   }
 
+  .header {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+  }
+
+  .text {
+    font-size: 18px;
+    color: #E5E7EB;
+
+  }
+
   button {
     cursor: pointer;
-    padding: 8px 16px;
+    padding: 8px 38px;
     border-radius: 8px;
+    color: #E5E7EB;
   }
   
   button.sign-up {
     background: royalblue;
     border: 1px solid royalblue;
-    color: white;
-  }
+    font-size: 18px;
 
+
+  }
+/* 
   .image {
   display: flex;
   flex: 1 1 0;
   outline: yellowgreen 3px solid;
-  }  */
+  }   */
