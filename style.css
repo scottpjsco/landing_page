@@ -144,9 +144,35 @@ ul {
     }
 
   .section-3 {
-    height: 400px; 
+    height: 270px; 
     outline: 3px solid rgb(100, 3, 68);
     background-color: #E5E7EB;
-    /* display: flex;
-    justify-content: center; */
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
     }
+
+  .quote {
+    width: 800px;
+    height: 300px;
+    color: #1F2937;
+    font-size: 32px;
+    }
+
+  .section-3b {
+  height: 30px; 
+  outline: 3px solid rgb(100, 3, 68);
+  background-color: #E5E7EB;
+  color: #1F2937;
+  font-size: 32px;
+  font-weight: 600;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  text-align: right;
+      }
+
+  .refquote {
+    padding-left: 500px;
+  }
